@@ -12,6 +12,9 @@ import ParentComponentProps from "@/muster-loesungen/props/ParentComponentProps.
 import ParentComponent3 from "@/muster-loesungen/propsandemits3/ParentComponent3.vue";
 import ParentComponent4 from "@/muster-loesungen/emits/ParentComponent4.vue";
 import ComposableUsage from "@/muster-loesungen/ComposableUsage.vue";
+import ParentComponent012 from "@/muster-loesungen/provideandinject/ParentComponent012.vue";
+import LifecycleExample from "@/muster-loesungen/LifecycleExample.vue";
+import ReactiveUtilities from "@/muster-loesungen/ReactiveUtilities.vue";
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -73,6 +76,21 @@ const routes: Array<RouteRecordRaw> = [
         path: '/011',
         name: 'ComposableUsage',
         component: ComposableUsage,
+    },
+    {
+        path: '/012',
+        name: 'ParentComponent012',
+        component: ParentComponent012,
+    },
+    {
+        path: '/013',
+        name: 'LifecycleExample',
+        component: LifecycleExample,
+    },
+    {
+        path: '/014',
+        name: 'ReactiveUtilities',
+        component: ReactiveUtilities,
     },
     {
         path: '/mein-reich',

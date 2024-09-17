@@ -14,6 +14,9 @@
         <option value="/009">Example 009 - emit im Parent auffangen</option>
         <option value="/010">Example 010 - emit</option>
         <option value="/011">Example 011 - Verwendung von Composables</option>
+        <option value="/012">Example 012 - provide und inject</option>
+        <option value="/013">Example 013 - lifecycle example</option>
+        <option value="/014">Example 014 - reactive utilities</option>
       </select>
       <button @click="router.push('/mein-reich')">Mein Code</button>
     </nav>
