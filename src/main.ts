@@ -9,4 +9,9 @@ app.use(router);
 
 // Hier wird alles registriert was die Vue App nutzt. Z.B. Pinia, Vuetify, VueRouter, usw.
 
+// Beispiel für eine globale Eigenschaft
+ app.config.globalProperties.$myGlobalFunction = function () {
+    alert('Globale Funktion in Vue 3!');
+};
+
 app.mount('#app');

@@ -6,10 +6,16 @@
         <option value="/001">Example 001 - Vue Komponente</option>
         <option value="/002">Example 002 - SCSS</option>
         <option value="/003">Example 003 - Mit Script Setup</option>
+        <option value="/004">Example 004 - Global Function Usage</option>
+        <option value="/005">Example 005 - $attrs Example</option>
+        <option value="/006">Example 006 - props</option>
+        <option value="/007">Example 007 - v-model</option>
+        <option value="/008">Example 008 - v-model:blablub</option>
+        <option value="/009">Example 009 - emit im Parent auffangen</option>
+        <option value="/010">Example 010 - emit</option>
       </select>
       <button @click="router.push('/mein-reich')">Mein Code</button>
     </nav>
-    <LoadingSpinner />
     <router-view id="app-content"/>
   </div>
 </template>
