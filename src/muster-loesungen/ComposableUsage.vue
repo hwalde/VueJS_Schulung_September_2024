@@ -1,10 +1,11 @@
 <template>
   <div>
-    <h3>ComposableUsage</h3>
+    <h3>011 - Verwendung von Composables</h3>
     <p>
       count: {{count}}
     </p>
     <button @click="increment">Increment</button>
+    <pre>Übrigens in views/Home.vue greifen wir auch auf count zu!</pre>
   </div>
 
 </template>
