@@ -11,6 +11,7 @@ import ParentComponent2 from "@/muster-loesungen/propsandemits2/ParentComponent2
 import ParentComponentProps from "@/muster-loesungen/props/ParentComponentProps.vue";
 import ParentComponent3 from "@/muster-loesungen/propsandemits3/ParentComponent3.vue";
 import ParentComponent4 from "@/muster-loesungen/emits/ParentComponent4.vue";
+import ComposableUsage from "@/muster-loesungen/ComposableUsage.vue";
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -67,6 +68,11 @@ const routes: Array<RouteRecordRaw> = [
         path: '/010',
         name: 'ParentComponent4',
         component: ParentComponent4,
+    },
+    {
+        path: '/011',
+        name: 'ComposableUsage',
+        component: ComposableUsage,
     },
     {
         path: '/mein-reich',

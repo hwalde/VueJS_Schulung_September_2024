@@ -13,6 +13,7 @@
         <option value="/008">Example 008 - v-model:blablub</option>
         <option value="/009">Example 009 - emit im Parent auffangen</option>
         <option value="/010">Example 010 - emit</option>
+        <option value="/011">Example 011 - ComposableUsageExample1</option>
       </select>
       <button @click="router.push('/mein-reich')">Mein Code</button>
     </nav>
