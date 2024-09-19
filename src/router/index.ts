@@ -15,6 +15,7 @@ import ComposableUsage from "@/muster-loesungen/ComposableUsage.vue";
 import ParentComponent012 from "@/muster-loesungen/provideandinject/ParentComponent012.vue";
 import LifecycleExample from "@/muster-loesungen/LifecycleExample.vue";
 import ReactiveUtilities from "@/muster-loesungen/ReactiveUtilities.vue";
+import SlotExampleParentComponent from "@/muster-loesungen/slots/SlotExampleParentComponent.vue";
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -91,6 +92,11 @@ const routes: Array<RouteRecordRaw> = [
         path: '/014',
         name: 'ReactiveUtilities',
         component: ReactiveUtilities,
+    },
+    {
+        path: '/015',
+        name: 'SlotExampleParentComponent',
+        component: SlotExampleParentComponent,
     },
     {
         path: '/mein-reich',

@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <p>Child</p>
+  <div class="child-container">
+    <p><strong>Child</strong></p>
     <ChildOfChildComponent012 />
   </div>
 </template>
@@ -10,7 +10,7 @@ import ChildOfChildComponent012 from "@/muster-loesungen/provideandinject/ChildO
 </script>
 
 <style scoped>
-.container {
+.child-container {
   padding: 20px;
   background-color: yellow;
   border-radius: 5px;
